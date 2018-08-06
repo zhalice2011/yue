@@ -1,9 +1,9 @@
 module.exports = {
   port: 4002,
   session: {
-    secret: 'yueblog',
-    key: 'yueblog',
+    secret: 'yue',
+    key: 'yue',
     maxAge: 2592000000
   },
-  mongodb: 'mongodb://localhost:27017/yueblog'
+  mongodb: 'mongodb://localhost:27017/yue'
 };

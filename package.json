@@ -1,11 +1,11 @@
 {
-  "name": "yueblog",
+  "name": "yue",
   "version": "1.0.0",
   "description": "yue blog",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
-    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'yueblog'"
+    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'yue'"
   },
   "author": "nswbmw",
   "license": "MIT",
